@@ -1,1 +1,30 @@
 @import "tailwindcss";
+@import "font.module.css";
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+@theme {
+    --font-Satoshi-Bold: "Satoshi-Bold";
+    --font-Satoshi-BoldItalic: "Satoshi-BoldItalic";
+    --font-Satoshi-Black: "Satoshi-Black";
+    --font-Satoshi-Medium: "Satoshi-Medium";
+    --font-Satoshi-Regular: "Satoshi-Regular";
+    --font-Satoshi-Italic: "Satoshi-Italic";
+    --font-Satoshi-Light: "Satoshi-Light";
+    --font-Satoshi-Medium: "Satoshi-Medium";
+    --font-Satoshi-Variable: "Satoshi-Variable";
+
+}
+
+@theme {
+    --color-royal-blue: #014baa;
+    --color-royal-dblue: #013f8f;
+    --color-light-royal: #6eacd3;
+}
+
+body {
+    font-family: Satoshi-Regular;
+}

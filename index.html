@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header class="w-full backdrop-blur-3xl px-6 py-3 sticky top-0 z-50 max-w-8xl mx-auto rounded-b-4xl ">
+  <header class="w-full glassy backdrop-blur-3xl px-6 py-3 sticky top-0 z-50 max-w-8xl mx-auto rounded-b-4xl ">
     <div class="w-full flex gap-20 justify-between items-center ">
       <img class="w-20 md:w-25" src="./public/logo.png" alt="logo">
       <ul class="hidden md:flex gap-6 justify-center lg:gap-7 xl:gap-16 lg:w-5/12  p-2">
@@ -105,29 +105,87 @@
     </div>
   </header>
   <!-- hero section -->
-  <section class="w-full max-w-8xl mx-auto  md:mt-30 flex md:flex-col ">
-    <p class="text-light-royal text-center font-Satoshi-Bold hidden md:block md:text-6xl lg:text-8xl  ">FIND CLOTHES
-      
-      THAT MATCHES YOUR STYLE</p>
-
-    <div class="bg-light-royal w-full flex flex-col gap-6 md:h-160 rounded-4xl top-10 relative pt-14 px-14">
-      <div class="flex flex-col">
-        <p class="text-cream font-Satoshi-Bold text-4xl w-80 ">Where Comfort Meets Confidence</p>
-        <p class="md:w-3/10 md:text-2xl text-xl text-royal-blue font-Satoshi-Medium mt-1.5">Browse through our diverse
-          range of meticulously crafted garments, designed to bring out your individuality and
-          cater to your sense of style.</p>
-        <button
-          class="py-3 px-3 bg-royal-blue md:w-2/10 rounded-base text-cream font-Satoshi-Italic text-sm md:text-xl">Explore
-          Now</button>
+  <section class="w-full max-w-8xl mx-auto md:mt-30 flex md:flex-col">
+    <p class="text-light-royal text-center font-Satoshi-Bold hidden md:block md:text-6xl lg:text-7xl xl:text-8xl">
+      FIND CLOTHES THAT MATCHES YOUR STYLE
+    </p>
+    <!-- ابی -->
+    <div
+      class="bg-light-royal w-full flex flex-col md:flex-row md:justify-between gap-6 md:h-160 rounded-4xl top-10 relative pt-14 px-14">
+      <!-- پارت اول چپی -->
+      <div class="flex flex-col gap-6 order-1 md:w-1/3 md:order-0">
+        <p class="text-cream font-Satoshi-Bold text-4xl w-80">Where Comfort Meets Confidence</p>
+        <p class="md:w-full md:text-2xl text-xl text-royal-blue font-Satoshi-Medium mt-1.5">
+          Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality
+          and
+          cater to your sense of style.
+        </p>
+        <button class="glassy w-full md:w-4/7 font-Satoshi-Bold text-royal-dblue rounded-base ">
+          <a href="#">Shop Now</a>
+        </button>
       </div>
-      <img class="md:w-100 lg:w-130 mx-auto w-90 md:absolute bottom-0 left-1/2 md:-translate-x-1/2 "
+      <!-- پارت اول چپی -->
+      <!-- خانوم وسط -->
+      <img
+        class="order-3 md:order-0 md:w-80 lg:w-120 xl:w-130 mx-auto w-90 md:absolute bottom-0 left-1/2 md:-translate-x-1/2"
         src="./public/pics/blue-girl.png" alt="a girl">
+      <!-- خانوم وسط -->
+      <!-- کامت راست -->
+      <div class=" order-2 md:order-0 md:absolute  lg:right-30 md:right-10 md:top-14 md:bottom-14 flex flex-col ">
+        <div class=" flex md:flex-col flex-wrap mt-5 gap-8 ">
+          <div class="w-fit text-center mx-auto">
+            <h6 class="text-3xl md:text-4xl text-royal-dblue font-Satoshi-Medium">200+</h6>
+            <P class="text-xl md:text-3xl  text-cream">International Brands</P>
+          </div>
+          <div class="w-fit text-center mx-auto">
+            <h6 class="text-3xl md:text-4xl text-royal-dblue font-Satoshi-Medium">2,000+</h6>
+            <P class="text-xl md:text-3xl  text-cream">High-Quality Products</P>
+          </div>
+          <div class="w-fit text-center mx-auto">
+            <h6 class="text-3xl md:text-4xl text-royal-dblue font-Satoshi-Medium">30,000+</h6>
+            <P class="text-xl md:text-3xl  text-cream ">Happy Customers</P>
+          </div>
+        </div>
+        <!-- کامت راست -->
+
+      </div>
     </div>
-    <p class="text-8xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, a.</p>
-
+    <!-- ابی تموم -->
   </section>
+  <!-- logo slider -->
+  <div class="swiper logoSwiper w-full overflow-hidden ">
+    <div class="swiper-wrapper flex bg-royal-dblue w-full h-20 items-center !ease-linear">
 
+      <div class="swiper-slide flex items-center justify-center">
+        <img src="./public/pics/logo/calvin klein.png" alt="calvin klein"
+          class="w-28 h-12 object-contain opacity-70 transition duration-300 hover:scale-105 hover:opacity-100" />
+      </div>
+
+      <div class="swiper-slide flex items-center justify-center">
+        <img src="./public/pics/logo/gucci.png" alt="gucci"
+          class="w-28 h-12 object-contain opacity-70 transition duration-300 hover:scale-105 hover:opacity-100" />
+      </div>
+
+      <div class="swiper-slide flex items-center justify-center">
+        <img src="./public/pics/logo/prada.png" alt="prada"
+          class="w-28 h-12 object-contain opacity-70 transition duration-300 hover:scale-105 hover:opacity-100" />
+      </div>
+
+      <div class="swiper-slide flex items-center justify-center">
+        <img src="./public/pics/logo/versach.png" alt="versach"
+          class="w-28 h-12 object-contain opacity-70 transition duration-300 hover:scale-105 hover:opacity-100" />
+      </div>
+
+      <div class="swiper-slide flex items-center justify-center">
+        <img src="./public/pics/logo/zara.png" alt="Zara"
+          class="w-28 h-12 object-contain opacity-70 transition duration-300 hover:scale-105 hover:opacity-100" />
+      </div>
+
+    </div>
+  </div>
+  <script src="./script.js"></script>
   <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
 
 </body>
 

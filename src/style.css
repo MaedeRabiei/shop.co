@@ -4,7 +4,7 @@
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
-
+@import "../node_modules/swiper/swiper-bundle.min.css"
 
 @theme {
     --font-Satoshi-Bold: "Satoshi-Bold";
@@ -28,4 +28,16 @@
 
 body {
     font-family: Satoshi-Regular;
+}
+
+.glassy {
+  @apply flex items-center justify-center
+         
+         border border-white/80
+         bg-white/20
+         py-2 px-3
+         backdrop-blur-3xl
+         shadow-[0_20px_40px_rgba(0,0,0,0.15),inset_0_1px_1px_rgba(255,255,255,0.9),inset_0_-1px_2px_rgba(0,0,0,0.08)]
+         transition-all duration-300
+         hover:bg-white/30;
 }

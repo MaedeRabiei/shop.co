@@ -4,7 +4,7 @@
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
-@import "../node_modules/swiper/swiper-bundle.min.css"
+@import "../node_modules/swiper/swiper-bundle.min.css";
 
 @theme {
     --font-Satoshi-Bold: "Satoshi-Bold";
@@ -22,7 +22,7 @@
 @theme {
     --color-royal-blue: #014baa;
     --color-royal-dblue: #013f8f;
-    --color-light-royal: #6eacd3;
+    --color-light-royal: #6eacd3; 
     --color-cream: #f8f2f2;
 }
 
